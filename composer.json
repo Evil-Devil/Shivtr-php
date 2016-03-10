@@ -1,0 +1,27 @@
+{
+    "name": "Shivtr-PHP",
+    "description": "PHP Client for the Shivtr API",
+    "keywords": [
+        "Shivtr",
+        "PHP",
+        "API"
+    ],
+    "authors": [
+        {
+            "name": "Benjamin Behrendt",
+            "email": "evil_devil@gmx.net"
+        }
+    ],
+    "require": {
+        "php": "^5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shivtr\\": "src",
+            "ShivtrTest\\": "tests"
+        }
+    }
+}
